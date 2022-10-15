@@ -1,1 +1,203 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T17:03:05.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" version="20.4.1" etag="occ4xWzN0avUQNINYOr1" type="github"><diagram id="R5oAP5KJqlrGBQdLR9EE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-15T17:47:59.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="yqXbNsyG0DUnM7L-jhs3" version="20.4.1" type="github">
+  <diagram id="R5oAP5KJqlrGBQdLR9EE" name="Сторінка-1">
+    <mxGraphModel dx="1855" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2oMosWtla2uc7tfIxoFU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-1" target="2oMosWtla2uc7tfIxoFU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-25" value="domain.com/donate-to/donate-path" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-6">
+          <mxGeometry x="-0.0095" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-1" value="Donator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-4" target="2oMosWtla2uc7tfIxoFU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-4" value="Authorization&lt;br&gt;(eg. Keycloak)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.006;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-5" target="2oMosWtla2uc7tfIxoFU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-11" value="UserId&lt;br&gt;Donate-to/donate-path&lt;br&gt;TransactionId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-10">
+          <mxGeometry x="0.085" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-5" target="2oMosWtla2uc7tfIxoFU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-15" value="TransactionId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-14">
+          <mxGeometry x="-0.0786" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.106;entryY=0.664;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-5" target="2oMosWtla2uc7tfIxoFU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-19" value="TransactionId + amount + auth key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-18">
+          <mxGeometry x="-0.0642" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-5" target="2oMosWtla2uc7tfIxoFU-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-24" value="UserId&lt;br&gt;TransactionId&lt;br&gt;Amount&lt;br&gt;donate url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-21">
+          <mxGeometry x="-0.2733" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-5" value="Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.856;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-9" target="2oMosWtla2uc7tfIxoFU-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="285" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-23" value="UserId by&lt;br&gt;TransactionId&lt;br&gt;Donate-to/donate-path" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-22">
+          <mxGeometry x="-0.0848" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-9" value="KV storage" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="215" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-12" value="Donate service&lt;br&gt;(eg. donateua.com)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="205" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-12" target="2oMosWtla2uc7tfIxoFU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-17" value="Donator Pays" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-16">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-20" target="2oMosWtla2uc7tfIxoFU-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-20" value="Queue" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-26" target="2oMosWtla2uc7tfIxoFU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-26" value="Transaction register&lt;br&gt;worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-27" value="Donator&#39;s&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-31" target="2oMosWtla2uc7tfIxoFU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-31" target="2oMosWtla2uc7tfIxoFU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-31" value="Donator&#39;s BE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-32" value="Donator&#39;s&amp;nbsp;&lt;br&gt;FE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-34" target="2oMosWtla2uc7tfIxoFU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-34" value="Donator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="900" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-40" value="Authorization&lt;br&gt;(eg. Keycloak)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-41" target="2oMosWtla2uc7tfIxoFU-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-41" target="2oMosWtla2uc7tfIxoFU-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-49" value="withdraw N amount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-48">
+          <mxGeometry x="0.0385" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-41" value="Service&#39;s BE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-42" value="Service&#39;s&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-44" value="Service&#39;s&amp;nbsp;&lt;br&gt;FE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-41" target="2oMosWtla2uc7tfIxoFU-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="690" as="sourcePoint" />
+            <mxPoint x="20" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="690" />
+              <mxPoint x="390" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-50" target="2oMosWtla2uc7tfIxoFU-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-50" value="Service agent&lt;br&gt;(eg. Barista)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="900" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-52" value="Donate service&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-53" target="2oMosWtla2uc7tfIxoFU-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-53" target="2oMosWtla2uc7tfIxoFU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-56" value="On update configuration&lt;br&gt;update routing configuration" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oMosWtla2uc7tfIxoFU-55">
+          <mxGeometry x="0.0628" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-53" value="Donate service&#39;s&lt;br&gt;BE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-57" value="Donate service&#39;s&amp;nbsp;&lt;br&gt;FE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-53" target="2oMosWtla2uc7tfIxoFU-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="sourcePoint" />
+            <mxPoint x="400" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="700" />
+              <mxPoint x="550" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-62" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2oMosWtla2uc7tfIxoFU-61" target="2oMosWtla2uc7tfIxoFU-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-61" value="Donate Service agent&lt;br&gt;(eg. donateua.com)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="900" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-60" value="Authorization&lt;br&gt;(eg. Keycloak)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-47" value="Authorization&lt;br&gt;(eg. Keycloak)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oMosWtla2uc7tfIxoFU-63" value="Actors:&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Donator&lt;/li&gt;&lt;ul&gt;&lt;li&gt;make donation&lt;/li&gt;&lt;li&gt;see all transactions&lt;/li&gt;&lt;li&gt;see all &quot;orders&quot; (withdraws)&lt;/li&gt;&lt;li&gt;use donation for discount&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Service agent&lt;/li&gt;&lt;ul&gt;&lt;li&gt;withdraw some amount&lt;/li&gt;&lt;li&gt;create a rule for monthly/weekly/daily donations to make discount or not&lt;/li&gt;&lt;li&gt;report for withdraws&lt;/li&gt;&lt;li&gt;accept only some groups of donations&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Donation service&lt;/li&gt;&lt;ul&gt;&lt;li&gt;add domain/path rules (group, url, etc)&lt;/li&gt;&lt;li&gt;see all transactions&lt;/li&gt;&lt;/ul&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="46" width="470" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
